@@ -1,10 +1,6 @@
 h1, h2, h3 {
   color: #000000;
 }
-.card-main{
-  background-color: rgb(0, 0, 0);
-}
-
 body {
   padding-top: 56px;
   color: #000000;
@@ -16,4 +12,7 @@ body {
 }
 .card-body {
   background-color: rgb(0, 0, 0);
+}
+.card-col-lg-5 {
+  color: #000000;
 }
