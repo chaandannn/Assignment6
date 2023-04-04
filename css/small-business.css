@@ -6,3 +6,10 @@
 body {
   padding-top: 56px;
 }
+.card-body {
+  background-color: rgb(144, 125, 212);
+}
+.navbar {
+  background-color: blue;
+  color: rgb(64, 35, 170);
+}
