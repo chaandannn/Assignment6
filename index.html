@@ -19,12 +19,12 @@
 </head>
 
 <body>
-
-  <!-- Navigation -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <header role=”banner”>  
+    <header>  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role=”navigation” aria-label=”main navigation”>
       <div class="container">
         <a class="navbar-brand" href="#">AHG</a>
+  
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,7 +51,9 @@
   </header>
 
   <!-- Page Content -->
-
+  <div class="container">
+    <main class role=”main”>
+  
     <!-- Heading Row -->
     <header class="row align-items-center my-5">
       <div class="col-lg-7">
@@ -70,9 +72,9 @@
     </header>
 
     <main class="container">
-      
+
     <!-- Testimonials Section -->
-<section class="card text-white bg-secondary my-5 py-4 text-center">
+<aside class="card text-white bg-secondary my-5 py-4 text-center">
   <div class="card-body">
     <h2 class="float-left font-weight-light">Testimonials</h2>
     <p class="clear-left">&ldquo;A great conference for assistive technology and web accessibility professionals in higher education.&rdquo; </p>
@@ -87,8 +89,10 @@
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
+            <section>
             <strong><p class="card-title">Annual Conference</p></strong>
             <p class="card-text">Attend over 120 sessions, including hands-on labs, on topics ranging from accessible PDFs to accessible teaching practices to legal and policy issues.</p>
+            <section>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary btn-sm">More Info</a>
@@ -125,9 +129,10 @@
   </div>
   <!-- /.container -->
 </section>
+    </main>
 
   <!-- footer class="py-5 bg-dark"  -->
-  <div class="py-5 bg-dark">
+  <footer class="py-5 bg-dark" role="contentinfo">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
     </div>
