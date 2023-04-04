@@ -1,18 +1,8 @@
-h1, h2, h3 {
-  color: #000000;
-}
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
 body {
   padding-top: 56px;
-  background-color: #f8f9fa;
-}
-.navbar {
-  background-color: blue;
-  color: rgb(64, 35, 170);
-}
-.card-body {
-  background-color: #ffffff; /* white */
-  color: #000000; /* black */
-}
-.card-col-lg-5 {
-  color: #000000;
 }
