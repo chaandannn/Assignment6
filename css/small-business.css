@@ -5,6 +5,12 @@
  */
 body {
   padding-top: 56px;
+  color: #000000;
+  background-color: #f8f9fa;
+}
+.navbar {
+  background-color: blue;
+  color: rgb(64, 35, 170);
 }
 .card-body {
   background-color: rgb(116, 137, 206);
