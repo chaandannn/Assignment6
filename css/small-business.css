@@ -7,3 +7,6 @@ body {
   background-color: blue;
   color: white;
 }
+.card-body {
+  background-color: rgb(132,184,233);
+}
